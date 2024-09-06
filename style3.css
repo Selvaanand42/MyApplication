@@ -1,0 +1,14 @@
+body{
+    background: url(./images/satisfying-villain-deaths-in-tamil-cinema-v0-o4gnfju1y2dd1.webp);   
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.circle{
+   border: 2px solid white;
+   width: 1500px;
+   height:675px;
+   background-color: aliceblue;
+   opacity: 25%;
+}
