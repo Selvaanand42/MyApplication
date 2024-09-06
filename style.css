@@ -1,0 +1,199 @@
+/* General Settings */
+
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body {
+    background: url(/images/wallpaperflare.com_wallpaper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main { 
+    display: block;
+    padding: 30px 0;
+}
+
+* { outline: none !important; }
+
+a:hover {
+    text-decoration: none;
+    opacity: 0.95%;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, input, div, textarea, label {
+    margin: 0;
+}
+
+h2 { font-size: 28px; }
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+p { font-size: 1em; }
+
+img { border-style: none; }
+
+.container {
+    width: 1700px;
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 100%;
+    box-sizing: border-box;
+    color: #fff;
+    opacity: 75%;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* End General Settings */
+
+/* Header */
+
+header { 
+    background: rgb(0, 0, 0); 
+    padding: 10px;
+    backface-visibility:inherit;
+}
+
+.title-header .title {
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+}
+
+.title-header .logo {
+    display: inline-block;
+}
+
+.title-header .logo img {
+    vertical-align: middle;
+}
+
+nav { background: #050505;
+    opacity:75%;
+    
+}
+
+nav li a { 
+    color: #d6ffad;
+    display: inline-block;
+    padding: 10px 10px;
+    opacity: 75%;
+    
+}
+
+/* End Header */
+
+/* Footer */
+
+footer {
+    background: #000000;
+    color: #deffb3;
+    padding: 10px;  
+    height: 100px;
+    opacity: 75%;
+}
+
+footer a { color: rgb(255, 255, 255); }
+
+/* End Footer */
+
+/* Home Page Content */
+
+.menu-item.additional-items h2 {
+    width: 50%;
+    float: left;
+    
+}
+
+.menu-item.additional-items .item-inner ul {
+    display: inline-block;
+    width: 50%;
+    float: left;
+
+} 
+
+/* End Home Page Content */
+
+/* Page Content */
+
+.event-item {
+    margin-bottom: 25px;
+    border: 1px solid #ffffff
+    rgb(254, 255, 255)
+   
+}
+
+
+/* 
+/* End Page Content */
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+*/
+/* .container2 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+} */
+/*
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
+} */ */
